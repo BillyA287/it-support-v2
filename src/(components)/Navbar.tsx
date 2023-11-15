@@ -8,7 +8,7 @@ const Navbar = (props: Props) => {
   return (
     <>
       <nav>
-        <ul className="flex items-center space-x-12 p-5">
+        <ul className="flex items-center space-x-12 p-5 fixed top-0 w-full bg-gray-800">
           <li>
             <Link href="/">
               <FontAwesomeIcon icon={faHome} className="icon" />
@@ -16,7 +16,7 @@ const Navbar = (props: Props) => {
             </Link>
           </li>
           <li>
-            <Link href="/TicketPage">
+            <Link href="/ticket-page">
               <FontAwesomeIcon icon={faTicket} className="icon" /> Tickets
             </Link>
           </li>

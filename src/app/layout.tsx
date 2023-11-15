@@ -5,6 +5,9 @@ import './globals.css'
 
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from '@/(components)/Navbar';
+
 
 config.autoAddCss = false;
 
@@ -22,7 +25,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      
+      <body className={inter.className}>{children}
+      <Navbar/>
+      </body>
     </html>
   )
 }
