@@ -11,7 +11,7 @@ const Navbar = (props: Props) => {
         <ul className="flex items-center space-x-12 p-5 fixed top-0 w-full bg-gray-800">
           <li>
             <Link href="/">
-              <FontAwesomeIcon icon={faHome} className="icon" />
+              <FontAwesomeIcon icon={faHome} className="icon mr-2" />
               Home
             </Link>
           </li>
